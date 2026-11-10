@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <radialGradient id="colonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe4e6" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffe4e6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="colonTrack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="50%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+    <radialGradient id="blockageGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#9f1239" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="60" cy="60" r="54" fill="url(#colonGlow)"/>
+  <!-- Large Intestine / Colon Arch -->
+  <path d="M34 84V44C34 32 46 24 60 24C74 24 86 32 86 44V80C86 86 80 92 74 92H66" stroke="url(#colonTrack)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Haustra (Colon folds) -->
+  <path d="M34 76H30M34 64H28M34 52H29M42 28L40 24M54 24V20M66 24V20M78 28L80 24M86 52H91M86 64H92M86 76H90" stroke="#881337" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Small Intestines (Loops in center) -->
+  <path d="M48 50C54 46 66 46 72 50C76 54 74 60 68 62C60 64 52 64 48 68C44 72 48 78 56 78C64 78 70 74 72 72" stroke="#fb7185" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Discomfort / Spasm Glow on lower colon -->
+  <circle cx="86" cy="66" r="14" fill="url(#blockageGlow)"/>
+  <circle cx="86" cy="66" r="5" fill="#fef08a"/>
+  <!-- Warning indicator sparks -->
+  <path d="M96 58L100 55M98 66H103M96 74L100 77" stroke="#e11d48" stroke-width="2" stroke-linecap="round"/>
+</svg>
