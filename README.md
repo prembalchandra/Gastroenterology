@@ -1,34 +1,44 @@
-# Gastroenterology & Digestive Health Landing Page
-### Ujala Cygnus Hospitals
+# Gastroenterology - Ujala Cygnus Hospitals Landing Page
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fprembalchandra%2Fgastro-landing-page)
+Responsive, high-converting Gastroenterology & Digestive Care landing page for Ujala Cygnus Hospitals.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fprembalchandra%2FGastroenterology)
 
 ---
 
 ## 🚀 Live Demo & Deployment
 
-- **GitHub Repository**: [https://github.com/prembalchandra/gastro-landing-page](https://github.com/prembalchandra/gastro-landing-page)
-- **1-Click Deploy on Vercel**: [Click here to deploy](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fprembalchandra%2Fgastro-landing-page)
-- **Direct Vercel Import URL**: [https://vercel.com/new/import?s=https://github.com/prembalchandra/gastro-landing-page](https://vercel.com/new/import?s=https://github.com/prembalchandra/gastro-landing-page)
+- **GitHub Repository**: [https://github.com/prembalchandra/Gastroenterology](https://github.com/prembalchandra/Gastroenterology)
+- **1-Click Deploy on Vercel**: [Deploy to Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fprembalchandra%2FGastroenterology)
 
 ---
 
 ## 📋 Features
 
-- **Hero Banner**: Gastroenterology consultation headline with rectangular doctor consultation visual & callback form.
-- **Problem Identification**: Interactive cards for Acidity, Stomach Pain, Constipation, Liver Care.
-- **Care Journey**: 3-step structured patient journey with specialist consultation.
-- **Clinical Services**: Endoscopy, digestive care, liver & gallbladder services.
-- **Meet Your Doctor**: Doctor spotlight with verified qualifications & appointment booking.
-- **Patient Testimonials & Video Stories**: Patient reviews and real experiences.
-- **Lead Capture & Callback Form**: Instant appointment & callback booking.
-- **Hospital Locations**: 14+ hospital units across North India.
-- **Smooth Animations**: Silky-smooth cubic-bezier transitions on cards, buttons, and badges.
+- **Hero Consultation Section**: Gastroenterology headline, quick callback booking form, and visual consultation banner.
+- **Problem Symptoms**: Digestive issues identification (Acidity, Constipation, Liver issues, Stomach pain).
+- **Patient Care Journey**: Clear 3-step consultation and treatment process.
+- **Clinical Services**: Advanced Endoscopy, Liver & Gallbladder treatment, and Colonoscopy.
+- **Specialist Doctors**: Verified doctor profile cards with appointment booking.
+- **Patient Stories & Reviews**: Video testimonials and patient review cards.
+- **Locations**: Hospital network across 14+ locations in North India.
+- **Mobile Responsive**: Fully optimized for mobile, tablet, and desktop screens.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5 & CSS3** (Vanilla, Mobile-Responsive)
-- **JavaScript** (ES6+)
-- **Vercel** (`vercel.json` optimized for zero-config deployment)
+- **HTML5 & Modern CSS3**
+- **JavaScript (ES6+)**
+- **Swiper.js** for touch sliders
+- **Vercel** (`vercel.json` configured for zero-config deployment)
+
+---
+
+## 💻 Local Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/prembalchandra/Gastroenterology.git
+   ```
+2. Open `index.html` in your web browser or run using VS Code Live Server / any HTTP server.
