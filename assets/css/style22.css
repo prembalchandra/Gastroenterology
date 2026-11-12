@@ -108,18 +108,18 @@ header#navbar {
 }
 
 .accent-lines {
-    margin-bottom: 16px;
     color: rgb(0, 0, 0);
     display: inline-flex;
-    font-size: 16px;
-    font-weight: 400;
-    align-items: center;
     gap: 6px;
     width: fit-content;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
 }
 
 .hero-title {
-    font-size: clamp(1.9rem, 3.2vw, 2.75rem);
+    font-size: clamp(1.9rem, 3.2vw, 2.70rem);
     font-weight: 800;
     line-height: 1.25;
     margin-bottom: 16px;
@@ -138,12 +138,13 @@ header#navbar {
 }
 
 .hero-subtitle {
-    font-size: 16px;
+    font-size: 14px;
     color: #4e5052;
-    max-width: 441px;
-    margin-bottom: 10px;
-    padding-top: 10px;
+    max-width: 480px;
+    margin-bottom: 15px;
+    padding-top: 17px;
     font-weight: 500;
+    line-height: 132%;
 }
 
 .hero-actions {
@@ -224,7 +225,7 @@ header#navbar {
     background-color: var(--white);
     border-radius: 16px;
     padding: 28px 24px;
-    box-shadow: rgba(15, 58, 112, 0.1) 0px 12px 36px;
+    box-shadow: rgb(15 58 112 / 2%) 1px 0px 6px;
     border: 1px solid rgba(226, 232, 240, 0.8);
 }
 
@@ -354,7 +355,7 @@ header#navbar {
     letter-spacing: 0.3px;
 }
 
-.problem-section .section-title {
+.section-title {
     font-size: 36px;
     font-weight: 800;
     color: rgb(7, 67, 137);
@@ -366,7 +367,7 @@ header#navbar {
     color: rgb(194, 24, 91);
 }
 
-.problem-section .section-subtitle {
+.section-subtitle {
     font-size: 15px;
     color: rgb(90, 105, 120);
     margin: 0px;
@@ -495,7 +496,7 @@ header#navbar {
 }
 
 .problem-disclaimer-text {
-    font-size: 18px;
+    font-size: 14px;
     color: rgb(43 44 46);
     margin: 18px 0px 0px;
     text-align: left;
@@ -607,7 +608,7 @@ header#navbar {
 
 .care-journey-content .section-eyebrow {
     color: rgb(214, 31, 105);
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 700;
     display: inline-flex;
     align-items: center;
@@ -623,25 +624,12 @@ header#navbar {
     background: linear-gradient(90deg, rgb(214, 31, 105) 0%, rgba(214, 31, 105, 0) 100%);
 }
 
-.care-journey-content .section-title {
-    color: rgb(10, 63, 131);
-    font-size: 32px;
-    font-weight: 800;
-    line-height: 1.25;
-    margin: 0px 0px 10px;
-}
 
 .care-journey-content .section-title .text-highlight {
     color: rgb(214, 31, 105);
 }
 
-.care-journey-content .section-subtitle {
-    color: rgb(109, 112, 116);
-    font-size: 16.5px;
-    line-height: 1.55;
-    margin: 0px 0px 24px;
-    font-weight: 500;
-}
+.care-journey-content .section-subtitle {margin-bottom: 15px;}
 
 .journey-steps {
     list-style: none;
@@ -718,10 +706,11 @@ header#navbar {
 }
 
 .journey-step-copy small {
-    color: rgb(97, 98, 100);
-    font-size: 14px;
-    line-height: 1.4;
     font-weight: 500;
+    font-size: 14px;
+    color: rgb(90, 105, 120);
+    margin: 0px;
+    line-height: 1.5;
 }
 
 .journey-step-arrow {
@@ -776,32 +765,10 @@ header#navbar {
     text-align: center;
 }
 
-.services-section .section-eyebrow {
-    display: inline-block;
-    color: rgb(216, 27, 96);
-    font-size: 14px;
-    font-weight: 700;
-    margin-bottom: 8px;
-    letter-spacing: 0.5px;
-}
 
-.services-section .section-title {
-    font-size: 36px;
-    font-weight: 800;
-    color: rgb(14, 69, 135);
-    margin: 0px 0px 12px;
-    line-height: 1.3;
-}
 
 .services-section .section-title .text-highlight {
     color: rgb(216, 27, 96);
-}
-
-.services-section .section-subtitle {
-    font-size: 15px;
-    color: rgb(100, 116, 139);
-    margin: 0px;
-    line-height: 1.6;
 }
 
 .cards-grid {
@@ -821,8 +788,6 @@ header#navbar {
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.service-card:hover {
-}
 
 .card-image-wrap {
     width: 100%;
@@ -873,7 +838,7 @@ header#navbar {
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     color: rgb(8, 59, 120);
     margin: 0px 0px 4px;
@@ -881,7 +846,7 @@ header#navbar {
 }
 
 .card-desc {
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(96, 101, 108);
     margin: 0px;
     line-height: 1.5;
@@ -959,19 +924,14 @@ header#navbar {
     flex: 1 1 0%;
 }
 
-.meet-doctor-content .section-eyebrow {
+.section-eyebrow {
     display: inline-flex;
     align-items: center;
     gap: 12px;
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 1px;
     text-transform: uppercase;
-    color: rgb(194, 54, 118);
-    margin-bottom: 12px;
 }
 
-.meet-doctor-content .section-eyebrow::after {
+.section-eyebrow::after {
     content: "";
     display: inline-block;
     width: 45px;
@@ -989,11 +949,8 @@ header#navbar {
 }
 
 .meet-doctor-content .section-subtitle {
-    font-size: 16px;
-    line-height: 1.6;
-    color: rgb(85, 96, 112);
-    margin: 0px 0px 24px;
-    max-width: 520px;
+    max-width: 522px;
+    margin-bottom: 18px;
 }
 
 .doctor-highlights {
@@ -1074,10 +1031,7 @@ header#navbar {
     padding: 0px 20px;
 }
 
-.reviews-section .stats-main-heading {
-    text-align: center;
-    margin-bottom: 45px;
-}
+
 
 .review-slider-wrapper {
     position: relative;
@@ -1130,7 +1084,7 @@ header#navbar {
 }
 
 .review-card-content-area p {
-    font-size: 14.5px;
+    font-size: 14px;
     line-height: 1.7;
     color: rgb(51, 65, 85);
     margin: 0px;
@@ -1250,10 +1204,7 @@ header#navbar {
     padding: 0px 20px;
 }
 
-.stats-main-heading {
-    text-align: center;
-    margin-bottom: 40px;
-}
+.stats-main-heading {text-align: center;margin-bottom: 24px;}
 
 .video-section-area .section-eyebrow {
     display: inline-block;
@@ -1263,19 +1214,12 @@ header#navbar {
     margin-bottom: 8px;
 }
 
-.stats-main-heading h2 {
-}
 
 .stats-main-heading h2 span {
     color: rgb(194, 24, 91);
 }
 
-.stats-main-heading p {
-    font-size: 1rem;
-    color: rgb(100, 116, 139);
-    max-width: 720px;
-    margin: 0px auto;
-}
+
 
 .video-slider-wrapper {
     position: relative;
@@ -1399,8 +1343,7 @@ header#navbar {
     flex-wrap: wrap;
 }
 
-.video-card-btns .btn {
-}
+
 
 .video-card-btns .btn svg {
     width: 20px;
@@ -1430,16 +1373,17 @@ header#navbar {
     flex-wrap: wrap;
     align-items: center;
     gap: 12px;
-    margin-bottom: 10px;
+    margin-bottom: 27px;
 }
 
 .trust-badge {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background-color: rgb(251, 251, 251);
+    background-color: #fff;
     padding: 8px 18px;
     border-radius: 9999px;
+    border: 1px solid #e7e7e7;
 }
 
 .trust-badge-icon img {
@@ -1471,13 +1415,7 @@ header#navbar {
     width: 100%;
 }
 
-.hospital-locations h2 {
-    font-weight: 800;
-    color: rgb(30, 60, 108);
-    text-align: center;
-    line-height: 129%;
-    font-size: clamp(24px, 3vw, 35px);
-}
+
 
 .hospital-locations ul.menu-footer-our-hospitals-list {
     width: 100%;
@@ -1573,8 +1511,6 @@ img, iframe {
     max-width: 100%;
 }
 
-.hero-container, .container, .srcn-container {
-}
 
 @media (max-width: 1024px) {
     .hero-container {
@@ -1609,7 +1545,7 @@ img, iframe {
     }
 
     .hero-subtitle {
-        margin: 0px auto 22px;
+    font-size: 14px;
     }
 
     .hero-actions {
@@ -1632,7 +1568,7 @@ img, iframe {
         gap: 18px;
     }
 
-    .problem-section .section-title {
+    .section-title {
         font-size: 30px;
     }
 }
@@ -1787,8 +1723,8 @@ img, iframe {
         font-size: 26px;
     }
 
-    .meet-doctor-content .section-subtitle {
-        font-size: 15px;
+    .section-subtitle {
+        font-size: 14px;
         margin-bottom: 20px;
     }
 
@@ -1813,9 +1749,6 @@ img, iframe {
         padding: 50px 0px;
     }
 
-    .reviews-section .stats-main-heading h2 {
-        font-size: 24px;
-    }
 
     .review-slider-wrapper {
         padding: 0px;
@@ -1847,10 +1780,6 @@ img, iframe {
 
     .stats-main-heading h2 {
         font-size: 1.45rem;
-    }
-
-    .stats-main-heading p {
-        font-size: 0.9rem;
     }
 
     .video-slider-wrapper {
@@ -2051,11 +1980,10 @@ img, iframe {
     }
 
     .hero-title {
-        font-size: clamp(1.75rem, 6vw, 2.25rem);
+        font-size: 28px;
     }
 
     .hero-subtitle {
-        margin: 0px auto 20px;
     }
 
     .hero-actions {
@@ -2125,8 +2053,9 @@ img, iframe {
 }
 
 @media (max-width: 600px) {
-    .srcn-container, .reviews-section .container, .video-section-area .container {
-    }
+     .problem-card-title{
+            max-width: 100%;
+     }
 
     .problem-cards-grid, .services-section .cards-grid {
         grid-template-columns: minmax(0px, 1fr);
@@ -2164,6 +2093,7 @@ img, iframe {
     .journey-step-number, .journey-step-arrow {
         width: 28px;
         height: 28px;
+        display: none;
     }
 
     .journey-step-icon {
@@ -2177,11 +2107,11 @@ img, iframe {
     }
 
     .journey-step-copy strong {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .journey-step-copy small {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .doctor-highlights {
