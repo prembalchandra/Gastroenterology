@@ -158,13 +158,13 @@ header#navbar {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    padding: 12px 18px;
-    border-radius: 50px;
-    font-size: 0.95rem;
-    font-weight: 600;
     text-decoration: none;
     transition: 0.25s;
     white-space: nowrap;
+    min-height: 46px;
+    padding: 9px 22px;
+    border-radius: 30px;
+    font-size: 15px;
 }
 
 .btn-primary {
@@ -505,7 +505,7 @@ header#navbar {
 
 .care-journey-section {
     background-color: rgb(248, 250, 252);
-    padding: 64px 20px;
+    padding: 64px 0px;
 }
 
 .care-journey-layout {
@@ -734,7 +734,7 @@ header#navbar {
 }
 
 .services-section {
-    padding: 70px 20px;
+    padding: 70px 0px;
     background: linear-gradient(rgb(255, 255, 255) 0%, rgb(244, 247, 251) 100%);
     position: relative;
     overflow: hidden;
@@ -877,7 +877,7 @@ header#navbar {
 
 .meet-doctor-section {
     position: relative;
-    padding: 60px 20px;
+    padding: 60px 0px;
     background: linear-gradient(135deg, rgb(251, 250, 253) 0%, rgb(246, 242, 247) 100%);
     overflow: hidden;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Devanagari", sans-serif;
@@ -1555,10 +1555,11 @@ img, iframe {
     .btn {
         width: max-content;
         max-width: 200px;
+        font-size: 14px;
     }
 
     .form-card {
-        padding: 22px 18px;
+        padding: 17px 14px;
     }
 }
 
@@ -1575,7 +1576,7 @@ img, iframe {
 
 @media (max-width: 600px) {
     .problem-section {
-        padding: 50px 0px;
+        padding: 43px 0px;
     }
 
     .problem-section .section-header.text-center {
@@ -1620,7 +1621,7 @@ img, iframe {
 
 @media (max-width: 560px) {
     .care-journey-section {
-        padding: 44px 16px;
+        padding: 44px 0px;
     }
 
     .care-journey-content .section-title {
@@ -1665,7 +1666,7 @@ img, iframe {
 
 @media (max-width: 640px) {
     .services-section {
-        padding: 50px 16px;
+        padding: 50px 0px;
     }
 
     .cards-grid {
@@ -1704,7 +1705,7 @@ img, iframe {
 
 @media (max-width: 768px) {
     .meet-doctor-section {
-        padding: 40px 16px;
+        padding: 40px 0px;
     }
 
     .meet-doctor-card {
@@ -1807,13 +1808,14 @@ img, iframe {
     .video-card-btns {
         width: 100%;
         margin-top: 22px;
-        gap: 12px;
+        gap: 9px;
+        flex-wrap: nowrap;
     }
 
     .video-card-btns .btn {
         width: 100%;
         padding: 12px 20px;
-        font-size: 0.95rem;
+        font-size: 14px;
     }
 }
 
@@ -1866,6 +1868,9 @@ img, iframe {
     .hospital-locations ul.menu-footer-our-hospitals-list li::before {
         font-size: 21px;
         line-height: 21px;
+    }
+    .trust-badge-text{
+        font-size: 13px;
     }
 }
 
@@ -1954,11 +1959,10 @@ img, iframe {
 
     .nav-container {
         gap: 12px;
+        font-size: 14px;
     }
 
     .btn-speak-expert {
-        padding: 10px 15px;
-        font-size: 0.875rem;
     }
 
     .hero-banner {
@@ -1974,7 +1978,7 @@ img, iframe {
     .hero-content {
         text-align: left;
         background: rgba(255, 255, 255, 0.88);
-        padding: 20px;
+        padding: 13px;
         border-radius: 14px;
         backdrop-filter: blur(4px);
     }
@@ -1998,8 +2002,8 @@ img, iframe {
     }
 
     .problem-section, .services-section, .meet-doctor-section, .reviews-section, .video-section-area {
-        padding-top: 48px;
-        padding-bottom: 48px;
+        padding-top: 40px;
+        padding-bottom: 42px;
     }
 
     .problem-section .section-header.text-center, .services-section .section-header.text-center {
@@ -2007,7 +2011,7 @@ img, iframe {
     }
 
     .care-journey-section {
-        padding: 48px 16px;
+        padding: 36px 0px;
     }
 
     .care-journey-layout {
@@ -2048,7 +2052,7 @@ img, iframe {
     }
 
     .video-container {
-        padding-bottom: 56.25%;
+        padding-bottom: 80.25%;
     }
 }
 
@@ -2186,15 +2190,14 @@ img, iframe {
 }
 
 .thank-you-card {
-    max-width: 580px;
-    width: 90%;
-    margin: 80px auto 40px;
-    background: rgb(255, 255, 255);
-    border-radius: 20px;
-    padding: 48px 36px;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.06) 0px 10px 40px;
-    border: 1px solid rgb(226, 232, 240);
+  width: min(92%, 560px);
+  margin: auto;
+  padding: 48px 36px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 18px;
+  box-shadow: rgba(18, 52, 77, 0.14) 0px 18px 45px;
 }
 
 .thank-you-icon {
@@ -2211,12 +2214,10 @@ img, iframe {
 }
 
 .thank-you-label {
-    font-size: 13px;
+   margin-bottom: 8px;
+    color: rgb(30, 60, 108);
+    font-size: 14px;
     font-weight: 700;
-    color: rgb(100, 116, 139);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
 }
 
 .thank-you-card h1 {
@@ -2243,37 +2244,41 @@ img, iframe {
 
 .btn-primary-dark {
     display: inline-flex;
-    align-items: center;
     gap: 8px;
-    background: rgb(15, 23, 42);
-    color: rgb(255, 255, 255);
-    padding: 12px 24px;
-    border-radius: 10px;
     font-weight: 600;
     text-decoration: none;
     transition: 0.2s;
-}
-
-.btn-primary-dark:hover {
-    background: rgb(30, 41, 59);
+    border-radius: 24px;
     color: rgb(255, 255, 255);
+    background: rgb(181, 22, 101);
+    font-size: 13px;
+    white-space: nowrap;
+    box-shadow: oklch(0.36 0.09 259 / 0.45) 0px 12px 40px -18px;
 }
 
+.thank-you-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    background: linear-gradient(135deg, rgb(238, 247, 255), rgb(252, 236, 244))
+}
 .btn-outline-call {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: rgb(255, 255, 255);
-    color: rgb(13, 148, 136);
-    border: 1.5px solid rgb(13, 148, 136);
-    padding: 12px 24px;
-    border-radius: 10px;
     font-weight: 600;
     text-decoration: none;
-    transition: 0.2s;
+    border: 1px solid rgb(30, 60, 108);
+    border-radius: 50px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    color: rgb(30, 60, 108) !important;
 }
 
 .btn-outline-call:hover {
-    background: rgb(13, 148, 136);
     color: rgb(255, 255, 255);
+      background: rgb(30, 60, 108);
+    border-color: rgb(30, 60, 108);
+    color: rgb(255, 255, 255) !important;
 }
